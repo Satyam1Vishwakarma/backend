@@ -29,7 +29,6 @@ mongoose
   })
   .catch((err) => console.log(err));
 
-// 🔌 Handle WebSocket connections
 io.on("connection", (socket) => {
   console.log("Client connected:", socket.id);
 });
